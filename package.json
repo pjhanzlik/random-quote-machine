@@ -1,0 +1,14 @@
+{
+	"private": "true",
+	"scripts": {
+		"test": "elm-test",
+		"serve": "parcel main.html --out-file index.html",
+		"build": "parcel build main.html -d public --public-url ./ --out-file index.html"
+	},
+	"devDependencies": {
+		"elm-hot": "^1.1.4",
+		"node-elm-compiler": "^5.0.4",
+		"elm-test": "^0.19.1",
+		"parcel-bundler": "^1.12.4"
+	}
+}
